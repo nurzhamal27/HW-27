@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5077d0ec-2ef3-4147-a825-70334f986abf" name="Changes" comment="added json file">
-      <change afterPath="$PROJECT_DIR$/data/gson-2.8.9.jar" afterDir="false" />
+    <list default="true" id="5077d0ec-2ef3-4147-a825-70334f986abf" name="Changes" comment="added classes Movie, Director and Cast">
+      <change afterPath="$PROJECT_DIR$/src/GsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MoviesParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Root.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-27.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW-27.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/JAVA-course/Homeworks/JAVA-Homework/HW-27/HW-27/data/gson-2.8.9.jar",
+    "last_opened_file_path": "C:/JAVA-course/Homeworks/JAVA-Homework/HW-27/HW-27/data",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -66,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670951336462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added gson">
+      <created>1670951561961</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670951561961</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added classes Movie, Director and Cast">
+      <created>1670954152953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670954152953</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +113,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="create project" />
     <MESSAGE value="added json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added json file" />
+    <MESSAGE value="added gson" />
+    <MESSAGE value="added classes Movie, Director and Cast" />
+    <option name="LAST_COMMIT_MESSAGE" value="added classes Movie, Director and Cast" />
   </component>
 </project>
