@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5077d0ec-2ef3-4147-a825-70334f986abf" name="Changes" comment="added classes Movie, Director and Cast">
-      <change afterPath="$PROJECT_DIR$/src/GsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MoviesParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Root.java" afterDir="false" />
+    <list default="true" id="5077d0ec-2ef3-4147-a825-70334f986abf" name="Changes" comment="Gson parser">
+      <change afterPath="$PROJECT_DIR$/src/Cinema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW-27.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW-27.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GsonParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoviesParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoviesParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/JAVA-course/Homeworks/JAVA-Homework/HW-27/HW-27/data",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JAVA-course/Homeworks/JAVA-Homework/HW-27/HW-27/data&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JAVA-course\Homeworks\JAVA-Homework\HW-27\HW-27\data" />
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670954152953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gson parser">
+      <created>1671034311768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671034311768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +120,7 @@
     <MESSAGE value="added json file" />
     <MESSAGE value="added gson" />
     <MESSAGE value="added classes Movie, Director and Cast" />
-    <option name="LAST_COMMIT_MESSAGE" value="added classes Movie, Director and Cast" />
+    <MESSAGE value="Gson parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gson parser" />
   </component>
 </project>

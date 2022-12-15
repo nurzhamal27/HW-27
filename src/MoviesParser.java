@@ -1,5 +1,7 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonIOException;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.BufferedReader;
@@ -30,6 +32,20 @@ public class MoviesParser<T> {
                 throw new RuntimeException(e);
             }
         }
+
+        public void run(){
+            MoviesParser<Root> parser = new MoviesParser(Root.class);
+            List<Root> moviesList = parser.readJson("data/movies.json");
+            System.out.println(moviesList.size());
+            List<Root> list = new ArrayList<>();
+            doListStuff(list);
+
+        }
+    public void doListStuff(List<Root> list){
+
+        System.out.println(list.size());
+        System.out.println(list.indexOf("name"));
+    }
 
     }
 

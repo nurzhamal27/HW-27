@@ -4,20 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Root {
-    private ArrayList<Movie> movies;
+    private String name;
 
-    public Root(ArrayList<Movie> movies) {
+    private List<Movie> movies;
+
+    public Root(String name, List<Movie> movies) {
+        this.name = name;
         this.movies = movies;
     }
 
-    public ArrayList<Movie> getMovies() {
+    public List<Movie> getMovies() {
         return movies;
     }
+
 
     @Override
     public String toString() {
         return "Root{" +
-                "movies=" + movies +
+                ", movies=" + movies +
                 '}';
     }
 }

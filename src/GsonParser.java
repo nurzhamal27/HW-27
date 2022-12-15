@@ -1,20 +1,15 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import java.io.FileReader;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GsonParser {
-    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    private static final Path PATH = Paths.get("data/tracks.json");
+
     public Root parse(){
-        Gson gson = new Gson();
+        Gson gson = new  GsonBuilder().setPrettyPrinting().create();
         try(FileReader reader = new FileReader("data/movies.json")){
             Root root = gson.fromJson(reader, Root.class);
-
             return root;
 
         }catch (Exception e){
@@ -22,18 +17,18 @@ public class GsonParser {
         }
         return null;
     }
-        public Root writeFile(Movie movies){
-            String str = GSON.toJson(movies);
-            try {
-                Files.write(PATH, str.getBytes());
-            } catch (IOException e) {
-                e.printStackTrace();
 
-            }
+    public void run(){
+        GsonParser parser = new GsonParser();
+        Root root = parser.parse();
+        System.out.println(root.getMovies());
+        List<Movie> list = new ArrayList<>();
+        doListStuff(list);
+    }
 
-            System.out.println(movies.getName());
-            return null;
-        }
+    public void doListStuff(List<Movie> list){
 
-
+        System.out.println(list.size());
+        System.out.println(list.indexOf("name"));
+    }
 }

@@ -10,7 +10,7 @@ public class Movie {
     private List<Cast> cast;
 
 
-    public Movie(String name, int year, String description, Director director, ArrayList<Cast> cast) {
+    public Movie(String name, int year, String description, Director director, List<Cast> cast) {
         this.name = name;
         this.year = year;
         this.description = description;
